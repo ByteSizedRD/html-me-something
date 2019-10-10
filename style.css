@@ -64,8 +64,13 @@ article {
 }
 
 img {
-    width: 100%;
-    margin: 10px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 75%;
+    align-content: center;
+    width: 75%;
+    height: 75%;
     padding: 0;
 }
 
@@ -78,7 +83,6 @@ footer{
     width: 100%;
     margin: 0;
     padding: 10px 20px;
-    background-color: yellow;
+    background-color: rgb(255, 255, 255);
     text-align: right;
 }
-
